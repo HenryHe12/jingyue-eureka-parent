@@ -1,6 +1,5 @@
 package com.jingyue.elasticsearch.service;
 
-import com.jingyue.api.pojo.Dept;
 import com.jingyue.api.service.DeptFeiginClientService;
 import com.jingyue.common.entity.Result;
 import com.jingyue.elasticsearch.bean.Item;
@@ -72,7 +71,7 @@ public class CreateIndexService {
     }
 
     /**
-     * 导入数据
+     * 导入数据,通过feign调用远程部门微服务，将部门数据导入到es中
      *
      * @return
      */
