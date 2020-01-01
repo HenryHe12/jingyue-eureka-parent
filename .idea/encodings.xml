@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-consumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-dept8081" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-dept8082" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-eureka7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-eureka7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-eureka7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-oauth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-search9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-zuul6001" charset="UTF-8" />
+  </component>
+</project>

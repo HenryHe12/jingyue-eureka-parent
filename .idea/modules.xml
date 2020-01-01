@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jingyue-base/jingyue-base.iml" filepath="$PROJECT_DIR$/jingyue-base/jingyue-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-common/jingyue-common.iml" filepath="$PROJECT_DIR$/jingyue-common/jingyue-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-consumer-feign/jingyue-consumer-feign.iml" filepath="$PROJECT_DIR$/jingyue-consumer-feign/jingyue-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-consumer-ribbon/jingyue-consumer-ribbon.iml" filepath="$PROJECT_DIR$/jingyue-consumer-ribbon/jingyue-consumer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-dept8081/jingyue-dept8081.iml" filepath="$PROJECT_DIR$/jingyue-dept8081/jingyue-dept8081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-dept8082/jingyue-dept8082.iml" filepath="$PROJECT_DIR$/jingyue-dept8082/jingyue-dept8082.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-eureka-parent.iml" filepath="$PROJECT_DIR$/jingyue-eureka-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-eureka7001/jingyue-eureka7001.iml" filepath="$PROJECT_DIR$/jingyue-eureka7001/jingyue-eureka7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-eureka7002/jingyue-eureka7002.iml" filepath="$PROJECT_DIR$/jingyue-eureka7002/jingyue-eureka7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-eureka7003/jingyue-eureka7003.iml" filepath="$PROJECT_DIR$/jingyue-eureka7003/jingyue-eureka7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-oauth/jingyue-oauth.iml" filepath="$PROJECT_DIR$/jingyue-oauth/jingyue-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-search9001/jingyue-search9001.iml" filepath="$PROJECT_DIR$/jingyue-search9001/jingyue-search9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-user/jingyue-user.iml" filepath="$PROJECT_DIR$/jingyue-user/jingyue-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-zuul6001/jingyue-zuul6001.iml" filepath="$PROJECT_DIR$/jingyue-zuul6001/jingyue-zuul6001.iml" />
+    </modules>
+  </component>
+</project>
