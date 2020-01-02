@@ -9,6 +9,8 @@ import com.jingyue.api.pojo.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class DeptServiceImpl implements DeptService {
     @Autowired
@@ -23,6 +25,7 @@ public class DeptServiceImpl implements DeptService {
     public Result selectDeptAll() {
         QueryWrapper<Dept> queryWrapper = new QueryWrapper<Dept>();
         QueryWrapper<Dept> wrapper = queryWrapper.isNotNull("id");
+        //List<Dept> depts = deptMapper.selectAll();
         return new Result(true, StatusCode.OK.getCode(), "查询成功", deptMapper.selectList(wrapper));
     }
 
