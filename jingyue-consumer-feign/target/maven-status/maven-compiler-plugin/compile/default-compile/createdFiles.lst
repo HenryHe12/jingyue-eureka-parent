@@ -1,0 +1,3 @@
+com\jingyue\consumer\feign\controller\ConsumerFeignController.class
+com\jingyue\consumer\feign\bean\ConfigBean.class
+com\jingyue\consumer\feign\JingyueConsumerFeignApp.class

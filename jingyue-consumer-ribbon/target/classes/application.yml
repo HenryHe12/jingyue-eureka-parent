@@ -1,0 +1,23 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: jingyue-consumer-ribbon
+  jmx:
+    default-domain: jingyue-consumer-ribbon
+  main:
+    allow-bean-definition-overriding: true
+#配置mybatis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: jingyue-consumer-ribbon
+    prefer-ip-address: true
+info:
+  app.name: jingyue-consumer-ribbon
+  company.name: 得逸信息技术有限公司
+  address.name: 湖北省十堰市
+  contry.name: china
+

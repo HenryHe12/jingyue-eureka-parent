@@ -1,0 +1,6 @@
+com\jingyue\api\pojo\Dept.class
+com\jingyue\api\service\UserService.class
+com\jingyue\api\pojo\Item.class
+com\jingyue\api\service\DeptFeiginClientService.class
+com\jingyue\api\service\DeptService.class
+com\jingyue\api\pojo\User.class

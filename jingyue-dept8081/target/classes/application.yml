@@ -1,0 +1,45 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: jingyue-dept
+  datasource:
+    url: jdbc:mysql://localhost:3306/jingyue?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: lipsadmin
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: true
+  type-aliases-package: com.jingyue.api.pojo
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: jingyue-dept8081
+    prefer-ip-address: true
+info:
+  app.name: 部门模块(实现负载均衡机制及实现hystrix熔断的保护机制)
+  company.name: 得逸信息技术有限公司
+  address.name: 湖北省十堰市
+  contry.name: china
+
+    #logging:
+    #pattern:
+    #console: '%d -%msg%n'
+    #path: D:/data/log/seller.log
+  #level:
+  #root: info
+#设置调用时显示的sql
+logging:
+  level:
+    com:
+      jingyue:
+        dept:
+          mapper: debug

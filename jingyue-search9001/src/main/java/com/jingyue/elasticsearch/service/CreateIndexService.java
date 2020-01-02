@@ -3,14 +3,22 @@ package com.jingyue.elasticsearch.service;
 import com.jingyue.api.service.DeptFeiginClientService;
 import com.jingyue.common.entity.Result;
 import com.jingyue.elasticsearch.bean.Item;
+import org.apache.tomcat.util.json.JSONParser;
+import org.apache.tomcat.util.json.JSONParserConstants;
 import org.elasticsearch.action.index.IndexResponse;
+import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.XContentFactory;
+import org.elasticsearch.index.query.MatchAllQueryBuilder;
+import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.search.SearchHit;
+import org.elasticsearch.search.SearchHits;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
@@ -101,5 +109,31 @@ public class CreateIndexService {
             e.printStackTrace();
             return false;
         }
+    }
+
+    /**
+     * 查询es中的数据
+     *
+     * @return
+     */
+    public List<Object> selectItems() {
+        List<Object> ls = new ArrayList<>();
+        try {
+            QueryBuilder qb = new MatchAllQueryBuilder();
+            SearchResponse response = client.prepareSearch("item").setTypes("docs").setQuery(qb).setFrom(0)
+                    .setSize(100).get();
+
+            SearchHits searchHits = response.getHits();
+            for (SearchHit hit : searchHits.getHits()) {
+                JSONParser parser = new JSONParser(hit.getSourceAsString());
+                LinkedHashMap<String, Object> objectMap = parser.parseObject();
+                System.out.println(objectMap);
+                ls.add(objectMap);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return ls;
     }
 }
