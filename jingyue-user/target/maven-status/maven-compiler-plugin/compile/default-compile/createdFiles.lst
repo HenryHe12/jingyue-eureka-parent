@@ -1,0 +1,4 @@
+com\jingyue\provider\user\JingyueUserApp.class
+com\jingyue\provider\user\controller\UserController.class
+com\jingyue\provider\user\mapper\UserMapper.class
+com\jingyue\provider\user\service\impl\UserServiceImpl.class
