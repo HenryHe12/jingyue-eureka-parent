@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 @Mapper
-public interface DeptMapper  extends BaseMapper<Dept>, tk.mybatis.mapper.common.BaseMapper<Dept> {
+public interface DeptMapper  extends BaseMapper<Dept> {
     /**
      * 通过部门编号获取部门下所有的用户
      * @param deptId
