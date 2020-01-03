@@ -6,19 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jingyue-search9001" />
-        <module name="jingyue-dept8082" />
-        <module name="jingyue-consumer-feign" />
-        <module name="jingyue-zuul6001" />
         <module name="jingyue-eureka7003" />
-        <module name="jingyue-base" />
-        <module name="jingyue-eureka7001" />
         <module name="jingyue-eureka7002" />
+        <module name="jingyue-eureka7001" />
+        <module name="jingyue-user" />
         <module name="jingyue-oauth" />
+        <module name="jingyue-search9001" />
+        <module name="jingyue-consumer-feign" />
+        <module name="jingyue-base" />
+        <module name="jingyue-dept8082" />
         <module name="jingyue-dept8081" />
         <module name="jingyue-consumer-ribbon" />
         <module name="jingyue-common" />
-        <module name="jingyue-user" />
+        <module name="jingyue-zuul6001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +32,7 @@
       <module name="jingyue-eureka7001" target="1.8" />
       <module name="jingyue-eureka7002" target="1.8" />
       <module name="jingyue-eureka7003" target="1.8" />
+      <module name="jingyue-generator8100" target="1.8" />
       <module name="jingyue-oauth" target="1.8" />
       <module name="jingyue-search9001" target="1.8" />
       <module name="jingyue-user" target="1.8" />
@@ -49,6 +50,7 @@
       <module name="jingyue-eureka7001" options="-parameters" />
       <module name="jingyue-eureka7002" options="-parameters" />
       <module name="jingyue-eureka7003" options="-parameters" />
+      <module name="jingyue-generator8100" options="-parameters" />
       <module name="jingyue-oauth" options="-parameters" />
       <module name="jingyue-search9001" options="-parameters" />
       <module name="jingyue-user" options="-parameters" />

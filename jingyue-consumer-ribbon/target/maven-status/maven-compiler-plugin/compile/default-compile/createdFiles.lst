@@ -1,4 +1,0 @@
-com\jingyue\consumer\ribbon\JingyueConsumerRibbonApp.class
-com\jingyue\consumer\ribbon\bean\ConfigBean.class
-com\jingyue\consumer\ribbon\controller\ConsumerRibbonController.class
-com\jingyue\consumer\balance\MyRule.class

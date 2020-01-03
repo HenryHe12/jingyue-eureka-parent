@@ -10,7 +10,7 @@ jingyue-dept8081 部门微服务
 jingyue-consumer-ribbon 
 jingyue-dept8082 部门微服务二
 jingyue-consumer-feign 
-jingyue-zuul6001 网管路由服务
-jingyue-search9001 elasticsearch搜索服务
+jingyue-zuul6001 网关路由服务
+jingyue-search9001 elasticsearch搜索服务（调用了部门微服务）
 jingyue-oauth 认证服务
 ```
