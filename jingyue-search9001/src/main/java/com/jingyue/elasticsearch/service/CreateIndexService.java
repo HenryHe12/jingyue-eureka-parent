@@ -4,7 +4,6 @@ import com.jingyue.api.service.DeptFeiginClientService;
 import com.jingyue.common.entity.Result;
 import com.jingyue.elasticsearch.bean.Item;
 import org.apache.tomcat.util.json.JSONParser;
-import org.apache.tomcat.util.json.JSONParserConstants;
 import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.transport.TransportClient;

@@ -6,18 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jingyue-eureka7003" />
-        <module name="jingyue-eureka7002" />
+        <module name="jingyue-base" />
+        <module name="jingyue-common" />
+        <module name="jingyue-consumer-feign" />
+        <module name="jingyue-consumer-ribbon" />
+        <module name="jingyue-dept8081" />
+        <module name="jingyue-dept8082" />
         <module name="jingyue-eureka7001" />
-        <module name="jingyue-user" />
+        <module name="jingyue-eureka7002" />
+        <module name="jingyue-eureka7003" />
         <module name="jingyue-oauth" />
         <module name="jingyue-search9001" />
-        <module name="jingyue-consumer-feign" />
-        <module name="jingyue-base" />
-        <module name="jingyue-dept8082" />
-        <module name="jingyue-dept8081" />
-        <module name="jingyue-consumer-ribbon" />
-        <module name="jingyue-common" />
+        <module name="jingyue-user" />
         <module name="jingyue-zuul6001" />
       </profile>
     </annotationProcessing>
@@ -41,20 +41,20 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="jingyue-base" options="-parameters" />
-      <module name="jingyue-common" options="-parameters" />
-      <module name="jingyue-consumer-feign" options="-parameters" />
-      <module name="jingyue-consumer-ribbon" options="-parameters" />
-      <module name="jingyue-dept8081" options="-parameters" />
-      <module name="jingyue-dept8082" options="-parameters" />
-      <module name="jingyue-eureka7001" options="-parameters" />
-      <module name="jingyue-eureka7002" options="-parameters" />
-      <module name="jingyue-eureka7003" options="-parameters" />
+      <module name="jingyue-base" options="" />
+      <module name="jingyue-common" options="" />
+      <module name="jingyue-consumer-feign" options="" />
+      <module name="jingyue-consumer-ribbon" options="" />
+      <module name="jingyue-dept8081" options="" />
+      <module name="jingyue-dept8082" options="" />
+      <module name="jingyue-eureka7001" options="" />
+      <module name="jingyue-eureka7002" options="" />
+      <module name="jingyue-eureka7003" options="" />
       <module name="jingyue-generator8100" options="-parameters" />
-      <module name="jingyue-oauth" options="-parameters" />
-      <module name="jingyue-search9001" options="-parameters" />
-      <module name="jingyue-user" options="-parameters" />
-      <module name="jingyue-zuul6001" options="-parameters" />
+      <module name="jingyue-oauth" options="" />
+      <module name="jingyue-search9001" options="" />
+      <module name="jingyue-user" options="" />
+      <module name="jingyue-zuul6001" options="" />
     </option>
   </component>
 </project>
