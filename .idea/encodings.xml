@@ -3,18 +3,30 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-consumer-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-consumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-consumer-ribbon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-dept8081" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-dept8081/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-dept8082" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-dept8082/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-eureka7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-eureka7001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-eureka7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-eureka7002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-eureka7003" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jingyue-generator8100" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-eureka7003/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-oauth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-oauth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-search9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-search9001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-user/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyue-zuul6001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jingyue-zuul6001/src/main/java" charset="UTF-8" />
   </component>
 </project>
