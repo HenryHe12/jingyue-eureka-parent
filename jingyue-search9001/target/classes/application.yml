@@ -1,0 +1,29 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: jingyue-elasticsearch
+  data:
+    elasticsearch:
+      cluster-name: my-application
+      cluster-nodes: 192.168.15.101:9300
+      repositories:
+        enabled: true
+  elasticsearch:
+    rest:
+      uris: ["http://192.168.15.101:9200"]
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: jingyue-elasticsearch9001
+    prefer-ip-address: true
+info:
+  app.name: 搜索服务
+  company.name: www.jingyues.com
+  build.artifactId: jingyue-elasticsearch9001
+  build.version: V1.0
+  build.company: 京跃科技有限公司
