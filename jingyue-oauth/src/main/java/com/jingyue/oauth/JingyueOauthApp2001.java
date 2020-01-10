@@ -8,5 +8,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 public class JingyueOauthApp2001 {
     public static void main(String[] args) {
         SpringApplication.run(JingyueOauthApp2001.class,args);
+
     }
 }

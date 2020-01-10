@@ -61,6 +61,7 @@ public class CreateIndexService {
      */
     public boolean insertDb() {
         try {
+
             XContentBuilder content = XContentFactory.jsonBuilder().startObject()
                     .field("id", 3)
                     .field("title", "央行降准0.5个百分点 释放长期资金约8000多亿元")
