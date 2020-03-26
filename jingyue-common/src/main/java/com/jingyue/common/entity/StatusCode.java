@@ -9,8 +9,8 @@ public enum StatusCode {
     LOGINERROR(20002, "用户名或密码错误"),
     ACCESSERROR(20003, "权限不足"),
     REMOTEERROR(20004, "远程调用失败"),
-    REPERROR(20005, "重复操作");
-
+    REPERROR(20005, "重复操作"),
+    INTERNAL_ERROR(500,"网络通信异常");
     private Integer code;
     private String msg;
 
